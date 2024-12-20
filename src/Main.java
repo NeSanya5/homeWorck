@@ -23,7 +23,7 @@ public class Main {
         System.out.println();
         System.out.println("Задача 5");
         for (int i = 1904; i <= 2096 ; i = i + 4) {
-            if (i % 100 != 0){
+            if ((i % 100 != 0) || (i % 400 == 0)){
                 System.out.println(i + " год является високосным");
             }
         }

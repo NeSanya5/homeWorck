@@ -69,10 +69,10 @@ public class Main {
             money = money + 15000;
             money = money + money/100;
             month++;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + money + " рублей");
         }
-        System.out.println("Месяц " + month + ", сумма накоплений равна " + money + " рублей");
         System.out.println();
-        System.out.println("Задача 2");
+        System.out.println("Задача 2.1");
         int o = 0;
         while (o < 10){
             o++;
@@ -81,6 +81,19 @@ public class Main {
         }
         System.out.println();
         for (; o >= 1; o--){
+            System.out.print(o);
+            System.out.print(" ");
+        }
+        System.out.println();
+        System.out.println("Задача 2.2");
+        for (o = 1; o <= 10; o++){
+            System.out.print(o);
+            System.out.print(" ");
+        }
+        System.out.println();
+        o = 11;
+        while (o > 1){
+            o--;
             System.out.print(o);
             System.out.print(" ");
         }
